@@ -1,0 +1,1935 @@
+13:08:43 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 3333
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+)
+
+13:08:43 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+13:08:43 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:08:44 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+13:08:44 $curl_ch_info[http_code]=200
+13:08:44 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700226524,"created_by":0,"updated_at":1700226524,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+13:08:44 авторизован!
+13:08:44 $pos=3178
+13:08:44 $action=sendamo
+13:08:44 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 16 m2 16gb 512gb
+            [price] => 2952
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 3333
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+13:08:44 $params=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"3333"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+13:08:44 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+13:08:44 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:08:44 $data(2)=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"3333"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+13:08:45 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+13:08:45 $curl_ch_info[http_code]=200
+13:08:45 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7614571,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7614571"}}}]}}
+13:08:45 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7614571
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7614571
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+13:32:54 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => hhh
+    [phone] => 3333
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+)
+
+13:32:54 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+13:32:54 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:32:55 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+13:32:55 $curl_ch_info[http_code]=200
+13:32:55 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700227974,"created_by":0,"updated_at":1700227974,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+13:32:55 авторизован!
+13:32:55 $pos=3178
+13:32:55 $action=sendamo
+13:32:55 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 16 m2 16gb 512gb
+            [price] => 2952
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => hhh
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 3333
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+13:32:55 $params=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"3333"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+13:32:55 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+13:32:55 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:32:55 $data(2)=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"3333"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+13:32:56 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+13:32:56 $curl_ch_info[http_code]=200
+13:32:56 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7618311,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7618311"}}}]}}
+13:32:56 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7618311
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7618311
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+13:42:16 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 333
+    [email] => dvd@dvv.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+13:42:16 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+13:42:16 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:42:17 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+13:42:17 $curl_ch_info[http_code]=200
+13:42:17 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700228536,"created_by":0,"updated_at":1700228536,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+13:42:17 авторизован!
+13:42:17 $pos=3178
+13:42:17 $action=sendamo
+13:42:17 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 333
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => dvd@dvv.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+13:42:17 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"333"}]},{"field_id":919148,"values":[{"value":"dvd@dvv.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+13:42:17 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+13:42:17 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+13:42:17 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"333"}]},{"field_id":919148,"values":[{"value":"dvd@dvv.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+13:42:18 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+13:42:18 $curl_ch_info[http_code]=200
+13:42:18 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7619767,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7619767"}}}]}}
+13:42:18 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7619767
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7619767
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10:13:07 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => hhh
+    [phone] => 5555
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+)
+
+10:13:07 Оновлення token_expires_at. Старе значення: 1700292151
+10:13:07 get_page_curl $url=https://gtsvmarket.kommo.com/oauth2/access_token
+10:13:07 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+)
+
+10:13:07 $data(2)={"client_id":"150c0def-0daa-4d39-816c-a051a4b1d920","client_secret":"6KKGHdKvoHeOEbPAJo5RyyvaEkeCuELtJPJniyiZrho5zUgnaCWNXQ6zUHMJfbkX","grant_type":"refresh_token","refresh_token":"def50200d5b880b75661260d3ac9544ac7e60f570611612de6f2a47f63bbe1fbb54e6443e3cc56a8e10cd32582e6421cd2558f5b740afab7746deeed621496be562a1d5244ef548d11b34fcd4b8945666e1e705847f1d88df3539390428de1947144db975955cb90af417aa1fa7a6b08e369483106081152bd56c9adb51e965b54436838b864e3b09960224d202f9e77386b10d29f70a5e4fd62655541335698a524add9aa4a793d1a8a305ccaa8e2d41d2a0be042c33372566d8c785f1f2701b156e967c1f53c88c5474d4544a4b118d105606e22b581627fbc4cedae963ed4171195ac4bfabee7bed7b54a0844326e1e1debba524b30e66084f8bbd7bd46500b85f660af2113c66d399a9a4d65c6163595387b6572aab08921357a537687dfac2384b97360582e63d4a024587388f510235919052e0324f2cf4ccf1ae13c55efb38a97ef5dcad8b3a7e2d7bcae0ea51379ae8e27bf54def9302deaff2a5eee64359e892c391633eb0b3334e7f6ade5947561927c625c5e036f86ee4d43aa345536efe6bd19d2590d0a1ec883a646d0dbf3c8f00cc24b0ef0e552f5080baaec8f0d5b88b9eebed831ff2979ade40e03253080ca79af119d6c695d666fbd0ac61277eeddc24a797705719766c6cbe853fa10adb825b38e69355562a51612566a4283b8ceea72acf2c19717d2bfbb"}
+10:13:08 $curl_ch_info[url]=https://gtsvmarket.kommo.com/oauth2/access_token
+10:13:08 $curl_ch_info[http_code]=200
+10:13:08 $return={"token_type":"Bearer","expires_in":86400,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw","refresh_token":"def502006f908d1d2e0dc750af2b6720b802284dba15720bec2115a7ed9ddddb412868570e62707f6992867955e6d61df95b2e1926bb0c9f6029925e7848e61957eea1c1460808b8fe92a7ce477a08c29c334497380cd22036dd3c07a8c21563ca883ecae32f41ae93cbf82f9c967ff1e4352cb2c834d7609d93ec48ff94e71b3d439d365bfb085f37c40653f5d4f45977b49369f03b2249b26c6bc228e154281c7bbc1e8cdaa71a463492e980535b85cc6350e64f241855ecba79ae20f9ff5a0464d12da80e8e33a3ae0b0900e90ed59e864690ab9d14e355067bac4253d5b608f411b92dbec28dd8d10f5ffb1753649055d692fadf8fae53b1a9157ca51832a977d3d2a9275c20a8ff90631cb0405c9d5dd28c58c882004b7ca79ec771042be3003ab5420a17b3b181169376ac5c92d6e1fc81e787060e85c85a0bc8141a43247c48dfb0db5236ba0e7a26f3ea99d10def81171377bae780063d1c510fed4cc1a9723da8f751eafe63b652108354c12cf6154c02094097e06bac9c92a529a7e5e06cc8dc29724d57494ba8886b210adf92d5e9a672ce3507639b1850e7b55e8de4b22a53cad8d7bc895932ae6c61373a4be6f2e36dc016a68d7c4df1960af263e9a3842b7be2f77e696b640009cd2a86b9a23362c29ffaea7e709ccb99dea76f18ce8046d9c7b339a0ce9360a2"}
+10:13:08 Зберігається конфігурація в файл: /home/u442243092/domains/macbook-pro.es/public_html/Kommo/config.ini
+10:13:08 Конфігурація збережена.
+10:13:08 Конфігурація оновлена. Нове значення token_expires_at: 1700388787
+10:13:08 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+10:13:08 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+10:13:08 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+10:13:08 $curl_ch_info[http_code]=401
+10:13:08 $return={"title":"Unauthorized","type":"https://httpstatus.es/401","status":401,"detail":"Invalid user name or password"}
+10:13:08 авторизован!
+10:13:08 $pos=3178
+10:13:08 $action=sendamo
+10:13:08 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 16 m2 16gb 512gb
+            [price] => 2952
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => hhh
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10:13:08 $params=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+10:13:08 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+10:13:08 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVkYjJiNzZhMGNhMDIwNzc3M2JlMWNjZGQ0NDlmZTZkMWMwZmRhYmM0YTQ5YzQyYjFlM2Q5ODYwODRhZGFjNDZkZGQyMDAzN2JiMjNiNGYzIn0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1ZGIyYjc2YTBjYTAyMDc3NzNiZTFjY2RkNDQ5ZmU2ZDFjMGZkYWJjNGE0OWM0MmIxZTNkOTg2MDg0YWRhYzQ2ZGRkMjAwMzdiYjIzYjRmMyIsImlhdCI6MTcwMDIwNTc1MiwibmJmIjoxNzAwMjA1NzUyLCJleHAiOjE3MDAyOTIxNTIsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.bVGd_brbrz3Dz5IOCMBP6sL0aMxY0EhhVUX3hC7k8DlVTXBhuWLjVKYy3DjR17MAedEG1zmH9KsCsqLxE3LD_Lmg7xkYFgmo6vyAfNClOTeniPl6y1A072c_CT0yOKpS9AKa9LlP2iHxvMAlRlzgs7RRGPiJrxBoYTrA98xMj1ukixWTY5h8-PgVWUBMsJqmU8e54IhzJYa_nucq8CkqVMn6cGTFc3O-2arfgwBUKCcJrZTgCO8nBC8Dg9w2--gdjQrL_lnpigEf2QOmIIYNTYGQ1lIjJPiKMb-2L6G-44gy6Qgsaj6kLAUoAG3_l7v433rCW9afUN7tTPH-EHW7Hg
+)
+
+10:13:08 $data(2)=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+10:13:09 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+10:13:09 $curl_ch_info[http_code]=401
+10:13:09 $return={"title":"Unauthorized","type":"https://httpstatus.es/401","status":401,"detail":"Invalid user name or password"}
+10:13:09 $p=Array
+(
+    [title] => Unauthorized
+    [type] => https://httpstatus.es/401
+    [status] => 401
+    [detail] => Invalid user name or password
+)
+
+10:15:16 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => hhh
+    [phone] => 5555
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+)
+
+10:15:16 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+10:15:16 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+10:15:17 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+10:15:17 $curl_ch_info[http_code]=200
+10:15:17 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700302517,"created_by":0,"updated_at":1700302517,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+10:15:17 авторизован!
+10:15:17 $pos=3178
+10:15:17 $action=sendamo
+10:15:17 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 16 m2 16gb 512gb
+            [price] => 2952
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => hhh
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10:15:17 $params=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+10:15:17 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+10:15:17 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+10:15:17 $data(2)=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"hhh"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+10:15:18 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+10:15:18 $curl_ch_info[http_code]=200
+10:15:18 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7775329,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7775329"}}}]}}
+10:15:18 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7775329
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7775329
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+11:04:31 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 5555
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+)
+
+11:04:31 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+11:04:31 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+11:04:32 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+11:04:32 $curl_ch_info[http_code]=200
+11:04:32 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700305471,"created_by":0,"updated_at":1700305471,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+11:04:32 авторизован!
+11:04:32 $pos=3178
+11:04:32 $action=sendamo
+11:04:32 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 16 m2 16gb 512gb
+            [price] => 2952
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+11:04:32 $params=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+11:04:32 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+11:04:32 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+11:04:32 $data(2)=[{"name":"Macbook Pro 16 m2 16gb 512gb","price":2952,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 16 m2 16gb 512gb; code: 23022; price: 2952 \u20ac"}]}]}]
+11:04:32 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+11:04:32 $curl_ch_info[http_code]=200
+11:04:32 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7777751,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7777751"}}}]}}
+11:04:32 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7777751
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7777751
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+11:56:54 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 5555
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => iPhone 15 Pro 128gb; code: 23100; price: 1250 €
+)
+
+11:56:54 Оновлення token_expires_at. Старе значення: 1700388787
+11:56:54 get_page_curl $url=https://gtsvmarket.kommo.com/oauth2/access_token
+11:56:54 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+)
+
+11:56:54 $data(2)={"client_id":"150c0def-0daa-4d39-816c-a051a4b1d920","client_secret":"6KKGHdKvoHeOEbPAJo5RyyvaEkeCuELtJPJniyiZrho5zUgnaCWNXQ6zUHMJfbkX","grant_type":"refresh_token","refresh_token":"def502006f908d1d2e0dc750af2b6720b802284dba15720bec2115a7ed9ddddb412868570e62707f6992867955e6d61df95b2e1926bb0c9f6029925e7848e61957eea1c1460808b8fe92a7ce477a08c29c334497380cd22036dd3c07a8c21563ca883ecae32f41ae93cbf82f9c967ff1e4352cb2c834d7609d93ec48ff94e71b3d439d365bfb085f37c40653f5d4f45977b49369f03b2249b26c6bc228e154281c7bbc1e8cdaa71a463492e980535b85cc6350e64f241855ecba79ae20f9ff5a0464d12da80e8e33a3ae0b0900e90ed59e864690ab9d14e355067bac4253d5b608f411b92dbec28dd8d10f5ffb1753649055d692fadf8fae53b1a9157ca51832a977d3d2a9275c20a8ff90631cb0405c9d5dd28c58c882004b7ca79ec771042be3003ab5420a17b3b181169376ac5c92d6e1fc81e787060e85c85a0bc8141a43247c48dfb0db5236ba0e7a26f3ea99d10def81171377bae780063d1c510fed4cc1a9723da8f751eafe63b652108354c12cf6154c02094097e06bac9c92a529a7e5e06cc8dc29724d57494ba8886b210adf92d5e9a672ce3507639b1850e7b55e8de4b22a53cad8d7bc895932ae6c61373a4be6f2e36dc016a68d7c4df1960af263e9a3842b7be2f77e696b640009cd2a86b9a23362c29ffaea7e709ccb99dea76f18ce8046d9c7b339a0ce9360a2"}
+11:56:55 $curl_ch_info[url]=https://gtsvmarket.kommo.com/oauth2/access_token
+11:56:55 $curl_ch_info[http_code]=200
+11:56:55 $return={"token_type":"Bearer","expires_in":86400,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw","refresh_token":"def502001fd2bc0699720bf641224f29eb804e8dbe281f44fff3ea91e9eadfe8958e0e459593e058a8011a96b4c53db32318692dfcccc017c350b4115fda9ba9bf868c7b687ee2f7782ce23abec70bd4df25d1274e0bfa132ba21824bb66c7d591941d33e952e770a30049811d2988defdfc03646ca06f8f2767862c613eea348397c2b04e48f5ef66e017f42dfed42b6004bb450c1d12e1c773f43cb0acc37b603787fd0c598e9b744cba17c00aaeb7f7fb4ba22e32ee7e16d89a73453306c8030ec7856c87dbadd2a6ed8d90dcf79c449011b74d049d48fb5a040b47543b5751bd45af516249855dd6b06b2dd2832282fbb8b2c6f2c911415ee37587f4715fa26afbe963f461770f3deaa9b0ec2fa4f5c06c3de82406170a960e4f2ca2602624698c0c68f4095f939c3f3c4f46191b190384259f07060d57fe3d2a62118f6bb6672f5e59053fea06a2e261014e4b55c479eff3472bfbd936d365c91a4518fe455b2a155701c862590e8ce965d3e1fa6a47ec8eed216a0e1d45c6cd282d5fe55794b71d3d6a93cc72a68e6b1717806a0810fc3b4fa4a21e1335d669e63fd88294d2dffa9f88cced932752b050b35b5eac0e4435183c1331e66554c9a52efd93afae1ec6d0a39822a1f52e1df1207afdcc3095aba5426df6efb6fd60e01e75fc831747c637a8d865aebc8a60e5af"}
+11:56:55 Зберігається конфігурація в файл: /home/u442243092/domains/macbook-pro.es/public_html/Kommo/config.ini
+11:56:55 Конфігурація збережена.
+11:56:55 Конфігурація оновлена. Нове значення token_expires_at: 1700567814
+11:56:55 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+11:56:55 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+11:56:56 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+11:56:56 $curl_ch_info[http_code]=401
+11:56:56 $return={"title":"Unauthorized","type":"https://httpstatus.es/401","status":401,"detail":"Invalid user name or password"}
+11:56:56 авторизован!
+11:56:56 $pos=3178
+11:56:56 $action=sendamo
+11:56:56 $params=Array
+(
+    [0] => Array
+        (
+            [name] => iPhone 15 Pro 128gb
+            [price] => 1250
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => iPhone 15 Pro 128gb; code: 23100; price: 1250 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+11:56:56 $params=[{"name":"iPhone 15 Pro 128gb","price":1250,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"iPhone 15 Pro 128gb; code: 23100; price: 1250 \u20ac"}]}]}]
+11:56:56 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+11:56:56 $outheaders=Array
+(
+    [User-Agent] => User-Agent: Kommo-oAuth-client/1.0
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMjY4YzJiMjI3MWI0ZTc2MDFlNzljYWRlYzQxMDJjMDQ1N2U3YzhkOTViOWRjZjYwZTBjNDUxOWFkODRkMjBkZWZkMjJjZDNlMTVhYTE0In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI1YjI2OGMyYjIyNzFiNGU3NjAxZTc5Y2FkZWM0MTAyYzA0NTdlN2M4ZDk1YjlkY2Y2MGUwYzQ1MTlhZDg0ZDIwZGVmZDIyY2QzZTE1YWExNCIsImlhdCI6MTcwMDMwMjM4NywibmJmIjoxNzAwMzAyMzg3LCJleHAiOjE3MDAzODg3ODcsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.rb-33PrHAp4jfNHFlp5gTiamveblPDw0mrQ0RwM-xRbLDQZIiTylkrud-M0aCMhsYHJUxtQlQTkgWQ46T0Ttf_4dP_6TJfJ7XOF4nmLzxmDXiUaQQOAgnkypD-OVcJR3LrqbxTnchly_XB6w-ncXvZcKSLw-2GXsErO3qb5DTX__N7HBGW75EVtQmw3_aoU2K7cN7-5Dx7OXBtTpKbY5asiFNrYNUcF5X--EAg5GrILsJQHZ28yVhiCFjPzPwGjGGoIcqx500FUIyw2k3TLPpN-lxOtkEuQvMUSA55PyquKH6DpCtAtBgJZV5Yf9MEgW7dgZ5uaxAzVtzw5QGtrGtw
+)
+
+11:56:56 $data(2)=[{"name":"iPhone 15 Pro 128gb","price":1250,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"iPhone 15 Pro 128gb; code: 23100; price: 1250 \u20ac"}]}]}]
+11:56:56 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+11:56:56 $curl_ch_info[http_code]=401
+11:56:56 $return={"title":"Unauthorized","type":"https://httpstatus.es/401","status":401,"detail":"Invalid user name or password"}
+11:56:56 $p=Array
+(
+    [title] => Unauthorized
+    [type] => https://httpstatus.es/401
+    [status] => 401
+    [detail] => Invalid user name or password
+)
+
+11:57:26 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => dfvfd
+    [phone] => 5555
+    [email] => mm@mm.com
+    [note] => 
+    [modelinfo] => iPhone 15 Pro 128gb; code: 23100; price: 1250 €
+)
+
+11:57:26 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+11:57:26 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+11:57:26 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+11:57:26 $curl_ch_info[http_code]=200
+11:57:26 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700481446,"created_by":0,"updated_at":1700481446,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+11:57:26 авторизован!
+11:57:26 $pos=3178
+11:57:26 $action=sendamo
+11:57:26 $params=Array
+(
+    [0] => Array
+        (
+            [name] => iPhone 15 Pro 128gb
+            [price] => 1250
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => dfvfd
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => iPhone 15 Pro 128gb; code: 23100; price: 1250 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+11:57:26 $params=[{"name":"iPhone 15 Pro 128gb","price":1250,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"dfvfd"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"iPhone 15 Pro 128gb; code: 23100; price: 1250 \u20ac"}]}]}]
+11:57:26 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+11:57:26 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+11:57:26 $data(2)=[{"name":"iPhone 15 Pro 128gb","price":1250,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"dfvfd"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"iPhone 15 Pro 128gb; code: 23100; price: 1250 \u20ac"}]}]}]
+11:57:27 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+11:57:27 $curl_ch_info[http_code]=200
+11:57:27 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7978115,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7978115"}}}]}}
+11:57:27 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7978115
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7978115
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+12:01:32 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => dfvfd
+    [phone] => 6545645
+    [email] => mm@mmm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+12:01:32 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+12:01:32 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+12:01:33 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+12:01:33 $curl_ch_info[http_code]=200
+12:01:33 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700481692,"created_by":0,"updated_at":1700481692,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+12:01:33 авторизован!
+12:01:33 $pos=3178
+12:01:33 $action=sendamo
+12:01:33 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => dfvfd
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 6545645
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mmm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+12:01:33 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"dfvfd"}]},{"field_id":919146,"values":[{"value":"6545645"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+12:01:33 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+12:01:33 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+12:01:33 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"dfvfd"}]},{"field_id":919146,"values":[{"value":"6545645"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+12:01:33 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+12:01:33 $curl_ch_info[http_code]=200
+12:01:33 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7978489,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7978489"}}}]}}
+12:01:33 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7978489
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7978489
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+12:07:42 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 5555
+    [email] => mm@mmm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+12:07:42 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+12:07:42 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+12:07:42 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+12:07:42 $curl_ch_info[http_code]=200
+12:07:42 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700482062,"created_by":0,"updated_at":1700482062,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"disabled","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+12:07:42 авторизован!
+12:07:42 $pos=3178
+12:07:42 $action=sendamo
+12:07:42 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 5555
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mmm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+12:07:42 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+12:07:42 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+12:07:42 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+12:07:42 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"5555"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+12:07:43 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+12:07:43 $curl_ch_info[http_code]=200
+12:07:43 $return={"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads"}},"_embedded":{"leads":[{"id":7979321,"request_id":"0","_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/leads/7979321"}}}]}}
+12:07:43 $p=Array
+(
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://gtsvmarket.kommo.com/api/v4/leads
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [leads] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7979321
+                            [request_id] => 0
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://gtsvmarket.kommo.com/api/v4/leads/7979321
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+08:04:40 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 444
+    [email] => mm@mmm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+08:04:40 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+08:04:40 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:04:41 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+08:04:41 $curl_ch_info[http_code]=200
+08:04:41 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700553880,"created_by":0,"updated_at":1700553880,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"unavailable","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+08:04:41 авторизован!
+08:04:41 $pos=3178
+08:04:41 $action=sendamo
+08:04:41 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 444
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mmm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+08:04:41 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"444"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:04:41 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+08:04:41 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:04:41 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"444"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:04:41 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+08:04:41 $curl_ch_info[http_code]=402
+08:04:41 $return={"title":"Payment Required","type":"https://httpstatus.es/402","status":402,"detail":"Payment required"}
+08:04:41 $p=Array
+(
+    [title] => Payment Required
+    [type] => https://httpstatus.es/402
+    [status] => 402
+    [detail] => Payment required
+)
+
+08:05:28 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 444
+    [email] => mm@mmm.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+08:05:28 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+08:05:28 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:05:29 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+08:05:29 $curl_ch_info[http_code]=200
+08:05:29 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700553929,"created_by":0,"updated_at":1700553929,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"unavailable","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+08:05:29 авторизован!
+08:05:29 $pos=3178
+08:05:29 $action=sendamo
+08:05:29 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 444
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => mm@mmm.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+08:05:29 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"444"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:05:29 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+08:05:29 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:05:29 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"444"}]},{"field_id":919148,"values":[{"value":"mm@mmm.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:05:30 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+08:05:30 $curl_ch_info[http_code]=402
+08:05:30 $return={"title":"Payment Required","type":"https://httpstatus.es/402","status":402,"detail":"Payment required"}
+08:05:30 $p=Array
+(
+    [title] => Payment Required
+    [type] => https://httpstatus.es/402
+    [status] => 402
+    [detail] => Payment required
+)
+
+08:05:48 $_REQUEST=Array
+(
+    [action] => sendamo
+    [fullname] => тест
+    [phone] => 333
+    [email] => hhh@hhh.com
+    [note] => 
+    [modelinfo] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+)
+
+08:05:48 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/account
+08:05:48 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:05:49 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/account
+08:05:49 $curl_ch_info[http_code]=200
+08:05:49 $return={"id":31860055,"name":"gtsvmarket","subdomain":"gtsvmarket","created_at":1700553948,"created_by":0,"updated_at":1700553948,"updated_by":0,"current_user_id":10257619,"country":"CY","currency":"USD","currency_symbol":"$","customers_mode":"unavailable","is_unsorted_on":true,"mobile_feature_version":0,"is_loss_reason_enabled":true,"is_helpbot_enabled":false,"is_technical_account":false,"contact_name_display_order":1,"_links":{"self":{"href":"https://gtsvmarket.kommo.com/api/v4/account"}}}
+08:05:49 авторизован!
+08:05:49 $pos=3178
+08:05:49 $action=sendamo
+08:05:49 $params=Array
+(
+    [0] => Array
+        (
+            [name] => Macbook Pro 14 m1 16gb 512gb
+            [price] => 2559
+            [status_id] => 61660347
+            [pipeline_id] => 7555299
+            [custom_fields_values] => Array
+                (
+                    [0] => Array
+                        (
+                            [field_id] => 919096
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => тест
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [field_id] => 919146
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 333
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [field_id] => 919148
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => hhh@hhh.com
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [field_id] => 919150
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [field_id] => 919204
+                            [values] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [value] => Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 €
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+08:05:49 $params=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"333"}]},{"field_id":919148,"values":[{"value":"hhh@hhh.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:05:49 get_page_curl $url=https://gtsvmarket.kommo.com/api/v4/leads
+08:05:49 $outheaders=Array
+(
+    [Content-Type] => Content-Type:application/json
+    [Authorization] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhlNTkxYmY2NjkzNTBmZmI0MDZjYjIyMzlkZjNkZmJhOGZmYjcyYjVlYTEwYWFjMmFiMWJiMDMzMjQyYjFlZGYxNjcwMTA5OTdlMmYyMDQ2In0.eyJhdWQiOiIxNTBjMGRlZi0wZGFhLTRkMzktODE2Yy1hMDUxYTRiMWQ5MjAiLCJqdGkiOiI4ZTU5MWJmNjY5MzUwZmZiNDA2Y2IyMjM5ZGYzZGZiYThmZmI3MmI1ZWExMGFhYzJhYjFiYjAzMzI0MmIxZWRmMTY3MDEwOTk3ZTJmMjA0NiIsImlhdCI6MTcwMDQ4MTQxNSwibmJmIjoxNzAwNDgxNDE1LCJleHAiOjE3MDA1Njc4MTUsInN1YiI6IjEwMjU3NjE5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjMxODYwMDU1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXX0.W2TIGdL3mmD4lQeUCW6XUG3u6XIvcWeSEVyZu8P4qQuJhoHSmYYmuP_STPEyrsuSEjWRmmB38fkleblnZsFjau5U_zcuQY4S-pi8KEiO9u-UdimxSXv7uTMVovxMUlJMEdGvmtjdOKm9XOL2bVY7uX1MTcW_jBoIcYeYmsm5xTIpdaZhTXc5cNy3DwBkT3Y0h5F866HbK30Zh5hZNMfCADGoEQumma8njqUqQjVMbjwJFyxz6v2SiEp0cihAwESM3WTIlT1aDF5CvPkKKg9Meu2npHYTbcVF4bACW7v4Xm5gv8kGinxD-MXb7SBiZKEI9zG8q2gexLkWUeRDlbmwUw
+)
+
+08:05:49 $data(2)=[{"name":"Macbook Pro 14 m1 16gb 512gb","price":2559,"status_id":61660347,"pipeline_id":7555299,"custom_fields_values":[{"field_id":919096,"values":[{"value":"\u0442\u0435\u0441\u0442"}]},{"field_id":919146,"values":[{"value":"333"}]},{"field_id":919148,"values":[{"value":"hhh@hhh.com"}]},{"field_id":919150,"values":[{"value":""}]},{"field_id":919204,"values":[{"value":"Macbook Pro 14 m1 16gb 512gb; code: 23058; price: 2559 \u20ac"}]}]}]
+08:05:49 $curl_ch_info[url]=https://gtsvmarket.kommo.com/api/v4/leads
+08:05:49 $curl_ch_info[http_code]=402
+08:05:49 $return={"title":"Payment Required","type":"https://httpstatus.es/402","status":402,"detail":"Payment required"}
+08:05:49 $p=Array
+(
+    [title] => Payment Required
+    [type] => https://httpstatus.es/402
+    [status] => 402
+    [detail] => Payment required
+)
+
