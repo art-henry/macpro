@@ -1,0 +1,109 @@
+#base {
+    display: grid;
+    gap: 1rem;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+@media (max-width: 1023px) {
+#base {
+        padding: 1rem 0.4rem 1rem 0.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #base {
+        grid-template-columns: 17rem 1fr;
+        grid-template-rows: auto;
+        padding: 1rem;
+    }
+}
+
+#base .db-settings {
+    grid-column: 1/2;
+    background-color: var(--windows);
+    background-image: var(--noise);
+    box-shadow: var(--shadows);
+    border-radius: 0.3rem;
+}
+@media (max-width: 1023px) {
+    #base .db-settings {
+        padding: 1rem 0.7rem 1rem 0.7rem;
+    }
+}
+@media (min-width: 1024px) {
+    #base .db-settings {
+        padding: 1rem;
+    }
+}
+
+#base form {
+    display: grid;
+    row-gap: 2rem;
+}
+
+#base form > div {
+    position: relative;
+    display: grid;
+    row-gap: 1rem;
+}
+#base .create {
+    font-size: 1rem;
+    color: var(--names);
+    text-align: center;
+}
+
+
+#base form div > div div:not(.password-eye) {
+    font-size: 1rem;
+    margin-bottom: 3px;
+    color: var(--windows-font);
+}
+
+#base form .pro-btn {
+    cursor: pointer;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid var(--bg-3);
+    border-radius: 0.2rem;
+    color: var(--link);
+    user-select: none;
+}
+
+#base form > .pro.hidden {
+    display: none;
+}
+
+#base form input {
+    border-radius: 4px;
+    font-size: 0.875rem;
+    padding: 0 0.54rem;
+    min-height: 35px;
+    width: 100%;
+    color: var(--input-font);
+    background-color: var(--input-bg);
+    border: 2px solid var(--input-border);
+}
+#base form input[name="password"] {
+    padding-right: 2.2rem;
+}
+
+#base form > div > div {
+    position: relative;
+}
+#base form .password-eye {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    z-index: 1;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    background-image: var(--eye-icon);
+}
+#base form .password-eye.showed {
+    background-position-y: 100%;
+}
